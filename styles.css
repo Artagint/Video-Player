@@ -77,7 +77,7 @@ video {
   cursor: pointer;
   opacity: 0.85;
   transition: opacity 150ms ease-in-out;
-  margin: 0 5px;
+  margin: 0 5px; /* necessary for no overlap */
 }
 
 .controls-overlay .media-controls button:hover {
