@@ -13,7 +13,7 @@ const mediaContainer = document.querySelector(".media-container");
 const progressBarContainer = document.querySelector(".progress-bar-container");
 const video = document.querySelector("video");
 
-// Switch cases that listen for a keydown event
+// Switch cases that listen for a keydown event and act according to the keypress
 document.addEventListener("keydown", (e) => {
   const tagName = document.activeElement.tagName.toLowerCase();
 
